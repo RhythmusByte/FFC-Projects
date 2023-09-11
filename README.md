@@ -1,2 +1,2 @@
-# FFC-Projects
-This repository contains the projects from my ffc learnings.
+# fcC-Projects
+This repository contains the projects from my fCC learnings.
