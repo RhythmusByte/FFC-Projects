@@ -1,5 +1,5 @@
 # fCC-Projects
-This repository contains the projects from my fCC learnings.
+This repository contains the projects that were given by [freeCodeCamp](https://www.freecodecamp.org).
 
 ---
 
