@@ -26,7 +26,7 @@ This repository contains the projects that were given by [freeCodeCamp](https://
   </summary>
 
 - [x] Learn HTML by Building a Cat Photo App
-- [ ] Learn Basic CSS by Building a Cafe Menu
+- [x] Learn Basic CSS by Building a Cafe Menu
 - [ ] Learn CSS colors
 - [ ] Learn HTML Forms
 - [ ] Certification Project - Build a survey form project
