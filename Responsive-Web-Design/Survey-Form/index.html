@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="RhythmusByte" />
+    <title>Survey Form</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!-- Header -->
+        
+        <header>
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">
+                <i>Thank you for taking the time to help us improve the platform</i>
+            </p>
+        </header>
+        
+    <main>
+        
+        
+        <!-- Form -->
+        
+        <form id="survey-form" method="post" action="#">
+            <fieldset>
+                <label for="name" id="name-label">Name <input type="text" name="name" id="name" class="text" placeholder="Enter your name" required/></label>
+                <label for="email" id="email-label">Email <input type="email" name="email" id="email"class="text" placeholder="Enter your email" required/></label>
+                <label for="number" id="number-label">Age (optional) <input type="number" name="age" id="number" placeholder="Age"class="text" min="13" max="120"/></label>
+                <label for="dropdown">Which option describes your current role? 
+                <select id="dropdown">
+                    <option value="">Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option value="full-time">Full Time Job</option>
+                    <option value="part-time">Part-Time Job</option>
+                    <option value="not-to-say">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+                </label>
+            </fieldset>
+            <fieldset class="radio-btn"><label for="recommend">
+                Would you recommend freeCodeCamp to a friend?
+                <label for="definitely">
+                    <input type="radio" name="radio" id="definitely" value="definitely" /> Definitely 
+                </label>
+                <label for="maybe">
+                    <input type="radio" name="radio" id="maybe" value="maybe" /> Maybe
+                </label>
+                <label for="notsure">
+                    <input type="radio" name="radio" id="notsure" value="notsure" /> Not Sure
+                </label>
+               </label> 
+            </fieldset>
+            <fieldset>
+                <label for="suggestion">What would you like to see improved?
+                    <label for="1">
+                        <input type="checkbox" name="suggestion" id="1" value="1" /> Front-End Projects
+                    </label>
+                    <label for="2">
+                        <input type="checkbox" name="suggestion" id="2" value="2" /> Back-End Projects
+                    </label>
+                    <label for="3">
+                        <input type="checkbox" name="suggestion" id="3" value="3" /> Data Visualisation 
+                    </label>
+                    <label for="4">
+                        <input type="checkbox" name="suggestion" id="4" value="4" /> Open-Source Community 
+                    </label>
+                    <label for="5">
+                        <input type="checkbox" name="suggestion" id="5" value="5" /> Forum 
+                    </label>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="comment">Any comment or suggestions?
+                    <textarea class="text" id="comment" name="comment" rows="5" cols="30" placeholder="Enter your comment here"></textarea>
+                </label>
+            </fieldset>
+            
+            <!-- Submit Button -->
+            
+            <input type="submit" id="submit" value="Submit">
+        </form>
+        
+    </main>
+</body>
+</html>
