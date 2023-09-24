@@ -29,7 +29,7 @@ This repository contains the projects that were given by [freeCodeCamp](https://
 - [x] Learn Basic CSS by Building a Cafe Menu
 - [x] Learn CSS colors by Color Markers
 - [x] Learn HTML Forms by Building a registration form
-- [ ] Certification Project - Build a survey form project
+- [x] Certification Project - Build a survey form
 ---
 - [ ] Learn the CSS Box Model
 - [ ] Learn CSS Flexbox
