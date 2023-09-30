@@ -31,7 +31,7 @@ This repository contains the projects that were given by [freeCodeCamp](https://
 - [x] Learn HTML Forms by Building a registration form
 - [x] Certification Project - Build a survey form
 ---
-- [ ] Learn the CSS Box Model by Rothko Painting
+- [x] Learn the CSS Box Model by Rothko Painting
 - [ ] Learn CSS Flexbox
 - [ ] Learn Typography
 - [ ] Learn Accessibility
