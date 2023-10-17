@@ -3,6 +3,8 @@ This repository contains the projects that were given by [freeCodeCamp](https://
 
 ---
 
+> Stopped learning using [freeCodeCamp](https://www.freecodecamp.org) due to app not supporting.
+
 # Courses
 - [Responsive Web Design](#webdesign)
 - Scientific Computing with Python
