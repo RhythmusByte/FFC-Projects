@@ -1,6 +1,5 @@
 # fCC-Projects
 > This repository contains the projects that were given by [freeCodeCamp](https://www.freecodecamp.org).
-
 ---
 # Courses
 - [Responsive Web Design](#webdesign)
@@ -50,3 +49,4 @@
 - [ ] Certification Project - Build a Personal Portfolio Webpage project
 
 </details>
+---
