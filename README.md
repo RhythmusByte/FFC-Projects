@@ -1,10 +1,7 @@
 # fCC-Projects
-This repository contains the projects that were given by [freeCodeCamp](https://www.freecodecamp.org).
+> This repository contains the projects that were given by [freeCodeCamp](https://www.freecodecamp.org).
 
 ---
-
-> Stopped learning using [freeCodeCamp](https://www.freecodecamp.org) due to app not supporting.
-
 # Courses
 - [Responsive Web Design](#webdesign)
 - Scientific Computing with Python
