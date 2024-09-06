@@ -1,21 +1,20 @@
 import 'dart:io';
 
 void main() {
-  stdout.write('Enter num 1: ');
-  var num1 = stdin.readLineSync();
-  stdout.write('Enter num 2: ');
-  var num2 = stdin.readLineSync();
+  // Take user inputs
+  stdout.write('Enter the first number: ');
+  int num1 = int.parse(stdin.readLineSync() ?? '0');
+  stdout.write('Enter the second number: ');
+  int num2 = int.parse(stdin.readLineSync() ?? '0');
 
-  var sum = (int.parse(num1!) + int.parse(num2!));
+  // Finding the sum
+  int sum1 = sum(num1, num2);
 
-  stdout.write('\nThe sum of ' + num1 + ' and ' + num2 + ' is $sum\n');
+  // Printing the output
+  print('The sum of $num1 and $num2 is $sum1');
 }
 
-/*
-Output: 
-
-Enter num 1: 4
-Enter num 2: 3
-
-The sum of 4 and 3 is 7
-*/
+// Function to add 2 numbers
+int sum(int num1, int num2) {
+  return num1 + num2;
+}
